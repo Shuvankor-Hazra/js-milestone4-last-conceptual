@@ -14,16 +14,3 @@ function add(a, b) {
 const c = add(20, 50);
 console.log(`Add function ${c} return.`);
 
-// ----------------------------------------------------------------
-
-// validation --->
-
-function XX(x, y) {
-    if(typeof x !== "number" || typeof y !== "number"){
-        return `Invalid Input!`
-    }
-  const total = x * y;
-  return total;
-}
-const z = XX(2, 88);
-console.log(`XX function return ${z}.`);
